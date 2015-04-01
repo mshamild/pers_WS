@@ -23,71 +23,71 @@ en:
   hello: "Hello world"
 
   titles:
-    application: Rails Base example site
+    application: Прототип персонального сайта
     dashboard:
-      index: Dashboard
+      index: Главная
     devise:
       registrations:
-        new: Sign up
-        edit: 'Edit %{user}'
+        new: Регистрация
+        edit: 'Настройка профиля %{user}'
       sessions:
-        new: Sign in
+        new: Вход
       passwords:
-        new: Forgot your password?
-        edit: Change password
+        new: Забыли пароль?
+        edit: Сменить пароль
       confirmations:
-        new: Didn't receive confirmation instructions?
+        new: Не получили письмо подтверждения?
 
   app:
     user:
       sign_in:
-        title: "Sign in"
-        legend_html: "Enter your <strong>%{app_name}</strong> account"
+        title: "Вход"
+        legend_html: "Введите данные вашей учетной записи для входа"
       sign_up:
-        title: "Sign up"
-        legend_html: "Create your <strong>%{app_name}</strong> account"
-        link: "Create a new account"
+        title: "Регистрация"
+        legend_html: "Создайте учетную запись"
+        link: "Создайте новую учетную запись"
       password:
         forgot:
-          title: "Forgot password?"
-          legend: "Enter your email address"
-          submit: "Send me reset password instructions"
-          link: "Forgot your password?"
+          title: "Забыли пароль?"
+          legend: "Введите ваш email адрес"
+          submit: "Выслать мне инструкции по восстановлению пароля"
+          link: "Забыли ваш пароль?"
         change:
-          title: "Change password"
-          legend: "Enter new password"
-          confirm: "Confirm your new password"
+          title: "Сменить пароль"
+          legend: "Введите новый пароль"
+          confirm: "Повторите пароль"
         confirmation:
-          title: "Resend confirmation instructions"
-          legend: "Enter your email address"
-          link: "Didn't receive confirmation instructions?"
-          unlock: "Didn't receive unlock instructions?"
+          title: "Повторно отправить инструкции для подтверждения"
+          legend: "Введите ваш email адрес"
+          link: "Не получили письмо подтверждения вашей учетной записи?"
+          unlock: "Не получили инструкции по разблокировке?"
       edit:
-        name: "Edit %{name}"
+        name: "Настройка профиля %{name}"
         new_password:
-          hint: "Leave it blank if you don't want to change it"
+          hint: "Оставьте поле пустым, если не хотите ничего менять"
         confirm_password:
-          hint: "We need your current password to confirm your changes"
+          hint: "Нам потребуется ваш текущий пароль для подтверждения изменений"
       cancel:
-        title: "Cancel my account"
-        reason: "Unhappy?"
-      session_links: "Anything else?"
+        title: "Удалить мою учетную запись"
+        reason: "Недовольны сайтом?"
+      session_links: "Что-нибудь еще?"
     form:
-      save: "Save"
-      send: "Send"
-      update: "Update"
-      sure: "Are you sure?"
+      save: "Сохранить"
+      send: "Отправить"
+      update: "Обновить"
+      sure: "Вы уверены?"
 
-    home: 'Dashboard'
+    home: 'Главная'
 
     navigation:
       main:
-        dashboard: 'Dashboard'
+        dashboard: 'Главная'
       user:
-        sign_in: 'Sign in'
-        sign_out: 'Sign out'
-        sign_up: 'Sign up'
-        edit_profile: 'Edit profile'
+        sign_in: 'Вход'
+        sign_out: 'Выход'
+        sign_up: 'Регистрация'
+        edit_profile: 'Настроить профиль'
 
   time:
     formats:
